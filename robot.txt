@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://coway-produk-cultushp.netlify.app/sitemap.xml
+Sitemap: https://cultustresnadi.github.io/coway-hp/sitemap.xml
+
