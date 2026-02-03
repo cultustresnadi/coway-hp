@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://cultustresnadi.github.io/coway-hp/sitemap.xml
-
