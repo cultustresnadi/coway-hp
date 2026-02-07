@@ -1572,10 +1572,14 @@
                   <h6 class="fw-bold">${product.name}</h6>
                   <!--  
                   <p class="small text-muted">${product.description}</p>
+                  const bulananPertama = data.packprice.paket[0].bulanan;
+
+console.log(bulananPertama); // 180000
+
                   -->
                   <p class="fw-bold text-danger">
-                    ${product.price
-                      ? "Rp " + product.price.toLocaleString("id-ID")
+                    ${packprice.paket[0].bulanan
+                      ? "Rp " + packprice.paket[0].bulanan.toLocaleString("id-ID")
                       : "Harga hubungi admin"}
                   </p>
 
@@ -1772,6 +1776,7 @@
 
 </body>
 </html>
+
 
 
 
