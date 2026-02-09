@@ -488,36 +488,29 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm" data-aos="fade-down">
+  <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm" id="mainNavbar">
     <div class="container">
-      <a class="navbar-brand coway-brand" href="#hero">
-        Coway
-      </a>
+      <a class="navbar-brand coway-brand" href="#hero">Coway</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarCoway" aria-controls="navbarCoway"
-        aria-expanded="false" aria-label="Toggle navigation">
+        data-bs-target="#navbarCoway">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarCoway">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
           <li class="nav-item">
-            <a class="nav-link" href="#hero">Beranda</a>
-          </li>
+            <a class="nav-link" href="#hero">Beranda</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#products">Produk</a>
-          </li>
+            <a class="nav-link" href="#products">Produk</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#testimoni">Testimoni</a>
-          </li>
+            <a class="nav-link" href="#testimoni">Testimoni</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#fyinfo">Info</a>
-          </li>
+            <a class="nav-link" href="#fyinfo">Info</a></li>
           <li class="nav-item ms-lg-3">
             <a href="https://wa.me/6289677843506"
                target="_blank"
-               class="btn btn-coway btn-sm"
+               class="btn btn-coway btn-sm nav-link"
                onclick="trackCTA('navbar_whatsapp')">
               Konsultasi WA
             </a>
@@ -695,13 +688,11 @@
       <h2 class="text-center" data-aos="zoom-in">Produk Coway</h2>
 
       <!-- divider -->
-      <!-- <div class="container my-5" data-aos="fade-up"> -->
         <div class="container d-flex align-items-center justify-content-center divider-premium">
           <span></span>
           <i class="bi bi-droplet-fill mx-3"></i>
           <span></span>
         </div>
-      <!-- </div> -->
 
       <div class="row mb-4">
         <div class="col-md-4 mb-2">
@@ -1196,7 +1187,6 @@
             <div class="divider-wave" data-aos="fade-up"></div>
 
             <h6 class="fw-bold mt-3">Fitur Produk:</h6>
-            <!-- <ul id="modalProductFitur" class="list-group list-group-flush mb-3"> -->
             <ul id="modalProductFitur" class="list-unstyled">
             </ul>
           </div>
@@ -1806,6 +1796,20 @@
   </script>
 
   <script>
+    document.querySelectorAll('.navbar-collapse .nav-link')
+      .forEach(function (navLink) {
+        navLink.addEventListener('click', function () {
+          const navbarCollapse = document.querySelector('.navbar-collapse');
+          const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+
+          if (bsCollapse) {
+            bsCollapse.hide();
+          }
+        });
+      });
+  </script>
+
+  <script>
     AOS.init({
       duration: 900,
       mirror: true,
@@ -1825,7 +1829,5 @@
       });
     }
   </script>
-
 </body>
 </html>
-
