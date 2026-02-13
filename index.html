@@ -57,6 +57,7 @@
     body {
       font-family: 'Segoe UI', sans-serif;
       line-height: 1.7;
+      padding-top: 80px; /* tinggi navbar */
     }
 
     html {
@@ -1119,7 +1120,7 @@
 
 
   <!-- FOOTER -->
-  <section class="py-5" id="footer">
+  <section class="py-5 bg-dark" id="footer">
   </section>
 
 <!-- MODAL MODAL MODAL MODAL -->
@@ -1570,25 +1571,25 @@
       }
     ];
 
-    const productList     = document.getElementById("productList");
-    const categoryFilter  = document.getElementById("categoryFilter");
-    const productSelect   = document.getElementById("productSelect");
+      const productList     = document.getElementById("productList");
+      const categoryFilter  = document.getElementById("categoryFilter");
+      const productSelect   = document.getElementById("productSelect");
 
-    // INIT SELECT2
-    $('#productSelect').select2({
-      //theme: 'bootstrap4',
-      placeholder: 'Pilih Produk',
-      //allowClear: true
-    });
+      // INIT SELECT2
+      $('#productSelect').select2({
+        //theme: 'bootstrap4',
+        placeholder: 'Pilih Produk',
+        //allowClear: true
+      });
 
 
-    categoryFilter.value = "all";
-    renderProducts(products);
-    renderProductSelect(products);
+      categoryFilter.value = "all";
+      renderProducts(products);
+      renderProductSelect(products);
 
-    // EVENT
-    categoryFilter.addEventListener("change", filterByCategory);
-    $('#productSelect').on('change', filterByProduct);
+      // EVENT
+      categoryFilter.addEventListener("change", filterByCategory);
+      $('#productSelect').on('change', filterByProduct);
 
 
       function renderProducts(data) {
@@ -1645,55 +1646,52 @@
       }
 
 
-    function renderProductSelect(data) {
-      $('#productSelect').empty().append(
-        `<option value="all">Semua Produk</option>`
-      );
-
-      data.forEach(product => {
-        $('#productSelect').append(
-          `<option value="${product.name}">${product.name}</option>`
+      function renderProductSelect(data) {
+        $('#productSelect').empty().append(
+          `<option value="all">Semua Produk</option>`
         );
-      });
 
-      $('#productSelect').val('all').trigger('change.select2');
-    }
+        data.forEach(product => {
+          $('#productSelect').append(
+            `<option value="${product.name}">${product.name}</option>`
+          );
+        });
 
-
-    function filterByCategory() {
-      const selectedCategory = categoryFilter.value;
-
-      let filtered = products;
-
-      if (selectedCategory !== "all") {
-        filtered = products.filter(p => p.category === selectedCategory);
+        $('#productSelect').val('all').trigger('change.select2');
       }
 
-      renderProducts(filtered);
-      renderProductSelect(filtered);
-    }
+      function filterByCategory() {
+        const selectedCategory = categoryFilter.value;
 
+        let filtered = products;
 
-    function filterByProduct() {
-      const selectedProduct = productSelect.value;
+        if (selectedCategory !== "all") {
+          filtered = products.filter(p => p.category === selectedCategory);
+        }
 
-      let filtered = products;
-
-      if (categoryFilter.value !== "all") {
-        filtered = filtered.filter(
-          p => p.category === categoryFilter.value
-        );
+        renderProducts(filtered);
+        renderProductSelect(filtered);
       }
 
-      if (selectedProduct !== "all") {
-        filtered = filtered.filter(
-          p => p.name === selectedProduct
-        );
+      function filterByProduct() {
+        const selectedProduct = productSelect.value;
+
+        let filtered = products;
+
+        if (categoryFilter.value !== "all") {
+          filtered = filtered.filter(
+            p => p.category === categoryFilter.value
+          );
+        }
+
+        if (selectedProduct !== "all") {
+          filtered = filtered.filter(
+            p => p.name === selectedProduct
+          );
+        }
+
+        renderProducts(filtered);
       }
-
-      renderProducts(filtered);
-    }
-
 
       function formatRupiah(value) {
         if (!value) return "-";
@@ -1762,7 +1760,6 @@
         );
         modal.show();
       };
-
     });
 </script>
 
@@ -1827,6 +1824,9 @@
       });
     }
   </script>
-  <script src="/js/include.js"></script>
+
+  <!-- Include Navbar & Footer -->
+  <script src="./js/include.js"></script>
+
 </body>
 </html>
