@@ -5,6 +5,7 @@
 	    .then(html => document.getElementById(id).innerHTML = html);
 	}
 
-	loadHTML('navbar', '/partials/navbar.html');
-	loadHTML('footer', '/partials/footer.html');
+	loadHTML('navbar', 'partials/navbar.html');
+	loadHTML('footer', 'partials/footer.html');
 </script>
+
