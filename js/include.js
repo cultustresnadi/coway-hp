@@ -1,4 +1,4 @@
-<script>
+document.addEventListener("DOMContentLoaded", function () {
 	function loadHTML(id, file) {
 	  fetch(file)
 	    .then(res => res.text())
@@ -7,5 +7,6 @@
 
 	loadHTML('navbar', 'partials/navbar.html');
 	loadHTML('footer', 'partials/footer.html');
-</script>
+	
+});
 
