@@ -7,13 +7,40 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
   <!-- AOS CSS -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.7;
+      background:#f8f9fa; 
+      padding-top: 80px; /* tinggi navbar */
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    html, body {
+      overflow-x: hidden;
+    }
+
+    .coway-brand {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: #1e88e5; /* biru Coway */
+      letter-spacing: 0.5px;
+    }
+
+    .coway-brand:hover {
+      color: #1565c0;
+    }
+
+    .navbar-collapse {
+      overflow-x: hidden;
     }
 
     .hero {
@@ -70,238 +97,245 @@
   </style>
 </head>
 <body>
+  <!-- NAVBAR -->
+  <div id="navbar"></div>
 
-<!-- Hero Banner -->
-<section class="hero">
-  <div class="container">
-    <div class="hero-content row align-items-center">
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content row align-items-center">
 
-      <!-- Kolom kiri: Image -->
-      <div class="hero-image col-md-6">
-        <img src="images/heart/heart_services_hero.webp" alt="Heart Service">
+        <!-- Kolom kiri: Image -->
+        <div class="hero-image col-md-6">
+          <img src="images/heart/heart_services_hero.webp" alt="Heart Service">
+        </div>
+
+        <!-- Kolom kanan: Text -->
+        <div class="hero-text col-md-6">
+          <h1 data-aos="zoom-in" style="color: #3e94f0;">HEART SERVICE</h1>
+          <p class="lead" data-aos="fade-down">
+            HEART Service dari Coway merupakan layanan pemeliharaan dengan kualitas terbaik, yang akan mengunjungi Anda pada waktu yang sudah dijadwalkan.
+          </p>
+          <p class="lead" data-aos="fade-up">
+            Itulah salah satu alasan mengapa masyarakat memilih produk dari Coway.
+          </p>
+          <p class="lead" data-aos="fade-up">
+            Layanan Aftersales terbaik yang datang ke rumah Anda secara berkala.
+          </p>
+          <!-- 
+          <a href="#keunggulan" class="btn btn-primary btn-lg" data-aos="zoom-in">
+            Pelajari Lebih Lanjut
+          </a>
+          -->
+          <a href="index.html" class="btn btn-secondary" data-aos="fade-left">← Kembali</a>
+        </div>
+
       </div>
-
-      <!-- Kolom kanan: Text -->
-      <div class="hero-text col-md-6">
-        <h1 data-aos="zoom-in" style="color: #3e94f0;">HEART SERVICE</h1>
-        <p class="lead" data-aos="fade-down">
-          HEART Service dari Coway merupakan layanan pemeliharaan dengan kualitas terbaik, yang akan mengunjungi Anda pada waktu yang sudah dijadwalkan.
-        </p>
-        <p class="lead" data-aos="fade-up">
-          Itulah salah satu alasan mengapa masyarakat memilih produk dari Coway.
-        </p>
-        <p class="lead" data-aos="fade-up">
-          Layanan Aftersales terbaik yang datang ke rumah Anda secara berkala.
-        </p>
-        <!-- 
-        <a href="#keunggulan" class="btn btn-primary btn-lg" data-aos="zoom-in">
-          Pelajari Lebih Lanjut
-        </a>
-        -->
-        <a href="index.html" class="btn btn-secondary" data-aos="fade-left">← Kembali</a>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Keunggulan Layanan -->
-<section id="keunggulan" class="py-5">
-  <div class="container text-center">
-    <h2 class="section-title" data-aos="zoom-in" style="color: #3e94f0;">PELAYANAN ISTIMEWA, PENGALAMAN PREMIUM</h2>
-    <div class="row g-4">
-      <div class="col-md-4" data-aos="fade-right">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title" style="color: #e82e9e;">Service Rutin Setiap 2 Bulan</h5>
-            <p class="card-text">CODY kami akan melakukan kunjungan setiap 2 bulan untuk pemeliharaan produk Coway Anda.</p>
+  <!-- Keunggulan Layanan -->
+  <section id="keunggulan" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title" data-aos="zoom-in" style="color: #3e94f0;">PELAYANAN ISTIMEWA, PENGALAMAN PREMIUM</h2>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-right">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #e82e9e;">Service Rutin Setiap 2 Bulan</h5>
+              <p class="card-text">CODY kami akan melakukan kunjungan setiap 2 bulan untuk pemeliharaan produk Coway Anda.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-down">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title" style="color: #e82e9e;">Sertifikasi Profesional Pelatihan CODY</h5>
-            <p class="card-text">Dengan standar yang ditetapkan oleh HQ kami di Korea, CODY kami telah melalui pelatihan profesional, ujian dan pelatihan lanjutan.</p>
+        <div class="col-md-4" data-aos="fade-down">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #e82e9e;">Sertifikasi Profesional Pelatihan CODY</h5>
+              <p class="card-text">Dengan standar yang ditetapkan oleh HQ kami di Korea, CODY kami telah melalui pelatihan profesional, ujian dan pelatihan lanjutan.</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4" data-aos="fade-left">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title" style="color: #e82e9e;">Pelayanan Di Rumah Anda</h5>
-            <p class="card-text">Tidak peduli hujan atau cerah, yang harus Anda lakukan adalah berada di rumah dan CODY kami akan membunyikan bel</p>
+        <div class="col-md-4" data-aos="fade-left">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #e82e9e;">Pelayanan Di Rumah Anda</h5>
+              <p class="card-text">Tidak peduli hujan atau cerah, yang harus Anda lakukan adalah berada di rumah dan CODY kami akan membunyikan bel</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4" data-aos="fade-right">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title" style="color: #e82e9e;">Layanan Pemeliharaan Sempurna</h5>
-            <p class="card-text">Dengan Hi-Care kami yang inovatif, sanitasi produk yang menyeluruh dapat memastikan kebersihan dan higienitas air yang Anda minum.</p>
+        <div class="col-md-4" data-aos="fade-right">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #e82e9e;">Layanan Pemeliharaan Sempurna</h5>
+              <p class="card-text">Dengan Hi-Care kami yang inovatif, sanitasi produk yang menyeluruh dapat memastikan kebersihan dan higienitas air yang Anda minum.</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title" style="color: #e82e9e;">Detail Kecil Kami Tangani</h5>
-            <p class="card-text">Kemungkinan meja yang berantakan akan berkurang menjadi hampir nol dengan fitur no-mess dari Hi-Care.</p>
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #e82e9e;">Detail Kecil Kami Tangani</h5>
+              <p class="card-text">Kemungkinan meja yang berantakan akan berkurang menjadi hampir nol dengan fitur no-mess dari Hi-Care.</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-md-4" data-aos="fade-left">
-        <div class="card h-100 shadow">
-          <div class="card-body">
-            <h5 class="card-title" style="color: #e82e9e;">Dijamin Higienis</h5>
-            <p class="card-text">Dengan teknologi air elektrolisis canggih, CODY membantu mensterilkan produk agar bebas dari bakteri dan mikroorganisme.</p>
+        <div class="col-md-4" data-aos="fade-left">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #e82e9e;">Dijamin Higienis</h5>
+              <p class="card-text">Dengan teknologi air elektrolisis canggih, CODY membantu mensterilkan produk agar bebas dari bakteri dan mikroorganisme.</p>
+            </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Heart Service untuk Water Purifier -->
-<section id="water-service" class="bg-primary py-5 text-white">
-  <div class="container">
+  <!-- Heart Service untuk Water Purifier -->
+  <section id="water-service" class="bg-primary py-5 text-white">
+    <div class="container">
 
-    <h2 class="section-title text-center mb-5" data-aos="zoom-in">
-      Heart Service™ – Water Purifier
-    </h2>
+      <h2 class="section-title text-center mb-5" data-aos="zoom-in">
+        Heart Service™ – Water Purifier
+      </h2>
 
-    <div class="row g-4 justify-content-center">
+      <div class="row g-4 justify-content-center">
 
-      <!-- STEP 1 -->
-      <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up">
-        <img src="images/heart/heart_services_pemurni_air_1.webp"
-             class="img-fluid mb-3"
-             alt="Sterilisasi Tangki">
-        <h5 class="fw-bold">STEP 1</h5>
-        <small>Perawatan Sterilisasi Tangki dan Saluran Air</small>
+        <!-- STEP 1 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up">
+          <img src="images/heart/heart_services_pemurni_air_1.webp"
+               class="img-fluid mb-3"
+               alt="Sterilisasi Tangki">
+          <h5 class="fw-bold">STEP 1</h5>
+          <small>Perawatan Sterilisasi Tangki dan Saluran Air</small>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="100">
+          <img src="images/heart/heart_services_pemurni_air_2.webp"
+               class="img-fluid mb-3"
+               alt="Pencucian Tangki">
+          <h5 class="fw-bold">STEP 2</h5>
+          <small>Pencucian Tangki Air</small>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="200">
+          <img src="images/heart/heart_services_pemurni_air_3.webp"
+               class="img-fluid mb-3"
+               alt="Penggantian Filter">
+          <h5 class="fw-bold">STEP 3</h5>
+          <small>Penggantian Filter Air</small>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="300">
+          <img src="images/heart/heart_services_pemurni_air_4.webp"
+               class="img-fluid mb-3"
+               alt="Pemeriksaan Keran">
+          <h5 class="fw-bold">STEP 4</h5>
+          <small>Pemeriksaan Keran Air</small>
+        </div>
+
+        <!-- STEP 5 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="400">
+          <img src="images/heart/heart_services_pemurni_air_5.webp"
+               class="img-fluid mb-3"
+               alt="Pembersihan">
+          <h5 class="fw-bold">STEP 5</h5>
+          <small>Pembersihan Bagian Luar</small>
+        </div>
+
       </div>
-
-      <!-- STEP 2 -->
-      <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="100">
-        <img src="images/heart/heart_services_pemurni_air_2.webp"
-             class="img-fluid mb-3"
-             alt="Pencucian Tangki">
-        <h5 class="fw-bold">STEP 2</h5>
-        <small>Pencucian Tangki Air</small>
-      </div>
-
-      <!-- STEP 3 -->
-      <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="200">
-        <img src="images/heart/heart_services_pemurni_air_3.webp"
-             class="img-fluid mb-3"
-             alt="Penggantian Filter">
-        <h5 class="fw-bold">STEP 3</h5>
-        <small>Penggantian Filter Air</small>
-      </div>
-
-      <!-- STEP 4 -->
-      <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="300">
-        <img src="images/heart/heart_services_pemurni_air_4.webp"
-             class="img-fluid mb-3"
-             alt="Pemeriksaan Keran">
-        <h5 class="fw-bold">STEP 4</h5>
-        <small>Pemeriksaan Keran Air</small>
-      </div>
-
-      <!-- STEP 5 -->
-      <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="400">
-        <img src="images/heart/heart_services_pemurni_air_5.webp"
-             class="img-fluid mb-3"
-             alt="Pembersihan">
-        <h5 class="fw-bold">STEP 5</h5>
-        <small>Pembersihan Bagian Luar</small>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Heart Service untuk Air Purifier -->
-<section id="air-service" class="py-5 text-white" style="background-color: #36c98a;">
-  <div class="container">
-    <h2 class="section-title text-center" data-aos="zoom-in">Heart Service™ – Air Purifier</h2>
+  <!-- Heart Service untuk Air Purifier -->
+  <section id="air-service" class="py-5 text-white" style="background-color: #36c98a;">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="zoom-in">Heart Service™ – Air Purifier</h2>
 
-    <div class="row g-4 justify-content-center">
+      <div class="row g-4 justify-content-center">
 
-      <!-- STEP 1 -->
-      <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up">
-        <img src="images/heart/heart_services_pemurni_udara_1.webp"
-             class="img-fluid mb-3"
-             alt="Sterilisasi Tangki">
-        <h5 class="fw-bold">STEP 1</h5>
-        <small>Pencucian Pre-Filter</small>
+        <!-- STEP 1 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up">
+          <img src="images/heart/heart_services_pemurni_udara_1.webp"
+               class="img-fluid mb-3"
+               alt="Sterilisasi Tangki">
+          <h5 class="fw-bold">STEP 1</h5>
+          <small>Pencucian Pre-Filter</small>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="100">
+          <img src="images/heart/heart_services_pemurni_udara_2.webp"
+               class="img-fluid mb-3"
+               alt="Pencucian Tangki">
+          <h5 class="fw-bold">STEP 2</h5>
+          <small>Penggantian Filter Secara Periodik</small>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="200">
+          <img src="images/heart/heart_services_pemurni_udara_3.webp"
+               class="img-fluid mb-3"
+               alt="Penggantian Filter">
+          <h5 class="fw-bold">STEP 3</h5>
+          <small>Pemeriksaan Sensor Tingkat Polusi</small>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="300">
+          <img src="images/heart/heart_services_pemurni_udara_4.webp"
+               class="img-fluid mb-3"
+               alt="Pemeriksaan Keran">
+          <h5 class="fw-bold">STEP 4</h5>
+          <small>Pembersihan Bagian Luar</small>
+        </div>
+
       </div>
-
-      <!-- STEP 2 -->
-      <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="100">
-        <img src="images/heart/heart_services_pemurni_udara_2.webp"
-             class="img-fluid mb-3"
-             alt="Pencucian Tangki">
-        <h5 class="fw-bold">STEP 2</h5>
-        <small>Penggantian Filter Secara Periodik</small>
-      </div>
-
-      <!-- STEP 3 -->
-      <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="200">
-        <img src="images/heart/heart_services_pemurni_udara_3.webp"
-             class="img-fluid mb-3"
-             alt="Penggantian Filter">
-        <h5 class="fw-bold">STEP 3</h5>
-        <small>Pemeriksaan Sensor Tingkat Polusi</small>
-      </div>
-
-      <!-- STEP 4 -->
-      <div class="col-lg-4 col-md-6 col-12 text-center" data-aos="fade-up" data-aos-delay="300">
-        <img src="images/heart/heart_services_pemurni_udara_4.webp"
-             class="img-fluid mb-3"
-             alt="Pemeriksaan Keran">
-        <h5 class="fw-bold">STEP 4</h5>
-        <small>Pembersihan Bagian Luar</small>
-      </div>
-
+      <a href="index.html" class="btn btn-secondary" data-aos="fade-left">← Kembali</a>
     </div>
-    <a href="index.html" class="btn btn-secondary" data-aos="fade-left">← Kembali</a>
-  </div>
-</section>
+  </section>
 
-<!-- CTA -->
-<section class="text-center py-5 bg-primary text-white">
-  <div class="container" data-aos="zoom-in">
-    <h3>Ayo Dapatkan Layanan HEART Service Sekarang!</h3>
-    <p>Hubungi kami untuk penjadwalan servis dan informasi lebih lanjut.</p>
-    <a href="#contact" class="btn btn-light btn-lg">Hubungi Kami</a>
-  </div>
-</section>
+  <!-- CTA -->
+  <section class="text-center py-5 bg-primary text-white">
+    <div class="container" data-aos="zoom-in">
+      <h3>Ayo Dapatkan Layanan HEART Service Sekarang!</h3>
+      <p>Hubungi kami untuk penjadwalan servis dan informasi lebih lanjut.</p>
+      <a href="#contact" class="btn btn-light btn-lg">Hubungi Kami</a>
+    </div>
+  </section>
 
-<!-- Footer -->
-<footer class="py-4 bg-dark text-white text-center">
-  <div class="container">
-    <small>© 2026 Coway HEART Service | All Rights Reserved</small>
-  </div>
-</footer>
+  <!-- FOOTER -->
+  <section class="py-5 bg-dark" id="footer">
+  </section>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
-<!-- AOS JS -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 900,
-    mirror: true,
-    once: false
-  });
-</script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
+
+  <!-- Include Navbar & Footer -->
+  <script src="./js/include.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 900,
+      mirror: true,
+      once: false
+    });
+  </script>
 </body>
 </html>
