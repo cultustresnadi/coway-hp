@@ -496,31 +496,7 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm" id="mainNavbar">
-    <div class="container">
-      <a class="navbar-brand coway-brand" href="#hero">Coway</a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarCoway">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarCoway">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#hero">Beranda</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#products">Produk</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimoni">Testimoni</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="heartservice.html">Service</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#fyinfo">Info</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div id="navbar"></div>
 
   <!-- HERO SECTION -->
   <section class="hero text-center" id="hero" style="padding-top: 100px;">
@@ -678,6 +654,11 @@
             Coway menyediakan Water Purifier dan Air Purifier untuk berbagai ukuran rumah dan keluarga dengan teknologi filtrasi canggih.
             Berikut katalog produk Coway terbaru lengkap dengan informasi harga dan penjualan paket.
           </p>
+          <!-- 
+          <a href="#products" class="btn btn-success btn-lg px-4">
+            Lihat Produk Coway
+          </a>
+          -->
         </div>
       </div>
 
@@ -690,6 +671,7 @@
       <h2 class="text-center" data-aos="zoom-in">Produk Coway</h2>
 
       <!-- divider -->
+      <!-- <div class="container my-5" data-aos="fade-up"> -->
         <div class="container d-flex align-items-center justify-content-center divider-premium">
           <span></span>
           <i class="bi bi-droplet-fill mx-3"></i>
@@ -1121,13 +1103,23 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <section class="py-5">
-    <footer class="py-4 bg-dark text-white text-center">
-      <div class="container">
-        <p class="mb-0">© 2026 Health Planner Coway by Cultus. All rights reserved.</p>
+<!-- VISITOR COUNTER -->
+<!-- 
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <script type="text/javascript" src="https://cdn.livetrafficfeed.com/static/static-counter/live.v2.js?ro=0&tz=Asia%2FJakarta"></script><noscript id="LTF_counter_href"><a href="https://livetrafficfeed.com/website-counter">Free Visitors Counter</a></noscript>
       </div>
-    </footer>
+    </div>
+  </div>
+</section>
+-->
+<!-- End of VISITOR COUNTER -->
+
+
+  <!-- FOOTER -->
+  <section class="py-5" id="footer">
   </section>
 
 <!-- MODAL MODAL MODAL MODAL -->
@@ -1773,6 +1765,7 @@
 
     });
 </script>
+
   <script>
     document.getElementById('paketModal')
       .addEventListener('show.bs.modal', function (event) {
@@ -1834,7 +1827,6 @@
       });
     }
   </script>
-
+  <script src="/js/include.js"></script>
 </body>
 </html>
-
