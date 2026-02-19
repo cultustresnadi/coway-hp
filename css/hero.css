@@ -1,0 +1,40 @@
+
+    /* container isi hero */
+    .hero-content {
+      display: flex;
+    }
+
+    /* image */
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* text */
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+      .hero {
+        padding: 100px 0;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      /* ubah urutan */
+      .hero-image {
+        order: 1;
+        margin-bottom: 30px;
+      }
+
+      .hero-text {
+        order: 2;
+      }
+    }

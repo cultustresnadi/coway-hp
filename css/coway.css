@@ -1,0 +1,147 @@
+  
+    :root {
+      --coway-blue: #00a6d6;
+      --coway-dark: #0b3c5d;
+      --coway-light: #f5fbfe;
+      --coway-ku: #c2feff;
+      --coway-neo: #e4f7e5;
+      --coway-air: #36c98a;
+      --coway-sil: #b1cbd8;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.7;
+      padding-top: 75px; /* tinggi navbar */
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    html, body {
+      overflow-x: hidden;
+    }
+
+    .bg-blue-soft {
+      background: linear-gradient(
+        135deg,
+        #afafb1 0%,
+        #a9f2d6 50%,
+        #a8dff4 100%
+      );
+    }
+
+    .bg-neo-soft {
+      background: linear-gradient(
+        135deg,
+        #e7f5fe 0%,
+        #949a9d 50%,
+        #fcfefe 100%
+      );
+    }
+
+    .section-bgsil {
+      background-color: var(--coway-sil);
+    }
+
+    .section-bgneo {
+      background-color: var(--coway-neo);
+    }
+
+    .section-bgku {
+      background-color: var(--coway-ku);
+    }
+
+    .section-bgair {
+      background-color: var(--coway-air);
+    }
+    .btn-coway {
+      background-color: var(--coway-blue);
+      color: #fff;
+      border-radius: 50px;
+      padding: 12px 20px;
+      font-weight: 400;
+    }
+
+    .btn-coway:hover {
+      background-color: #008fbb;
+      color: #fff;
+    }
+
+    .badge-coway {
+      background-color: var(--coway-blue);
+    }
+
+    .cta-friction {
+      display: inline-block;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: #000;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .cta-friction-text {
+      display: inline-block;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: #ffffff;
+      opacity: 0.9;
+    }
+
+    .divider-premium span {
+      flex: 1;
+      height: 3px;
+      background: linear-gradient(to right, transparent, #00a8b5, transparent);
+    }
+
+    .divider-premium i {
+      font-size: 1.8rem;
+      color: #00a8b5;
+    }
+
+    .divider-wave {
+      height: 6px;
+      width: 100%;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        #00a8b5,
+        #6dd5ed,
+        #00a8b5,
+        transparent
+      );
+      background-size: 100% auto;
+      animation: wave 3s linear infinite;
+      margin: 60px 0;
+    }
+
+    @keyframes wave {
+      0% { background-position: 0% center; }
+      100% { background-position: 200% center; }
+    }
+
+    /* ------------------------
+      style of NavBaar
+    ------------------------*/
+    #mainNavbar.scrolled {
+      box-shadow: 0 0.5rem 1rem rgba(0,0,0,.1);
+      transition: 0.3s;
+    }
+    .coway-brand {
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: #1e88e5; /* biru Coway */
+      letter-spacing: 0.5px;
+    }
+    .coway-brand:hover {
+      color: #1565c0;
+    }
+
+    /*
+    .navbar-collapse {
+      overflow-x: hidden;
+    }
+    */
+
