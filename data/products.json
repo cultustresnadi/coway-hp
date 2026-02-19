@@ -1,0 +1,418 @@
+[
+  {
+    "id": 1,
+    "name": "Cinnamon P-632OR",
+    "category": "Water Purifier",
+    "price": 7200000,
+    "packprice": {
+      "filter": 1300000,
+      "paket": [
+        { "durasi": 7, "bulanan": 180000, "cash": 15120000 },
+        { "durasi": 6, "bulanan": 200000, "cash": 14400000 },
+        { "durasi": 5, "bulanan": 220000, "cash": 13200000 },
+        { "durasi": 3, "bulanan": 253000, "cash": 9108000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "20 WATT HEMAT LISTRIK SEUMUR HIDUP Mencegah tagihan listrik membengkak, kami menjamin konsumsi air tanpa rasa cemas dan semakin peduli terhadap lingkungan Anda.",
+      "FUNGSI PRAKTIS & MINIMALIS Menyediakan semua fungsi yang mudah digunakan dalam bentuk minimalis yang cantik.",
+      "TOMBOL DIGITAL SEKALI SENTUH Lebih nyaman dengan kemudahan satu sentuhan ringan memilih 3 jenis takaran air 250ml | 500ml | 1l"
+    ],
+    "image": "images/coway-wp-cinnamon.png",
+    "description": "SI MUNGIL UNTUK AIR TANPA BATAS | Pemurni air yang memenuhi kebutuhan utama, dalam ukuran minimalis dan desain elegan"
+  },
+  {
+    "id": 2,
+    "name": "Neo Plus CHP-264L",
+    "category": "Water Purifier",
+    "price": 11760000,
+    "packprice": {
+      "filter": 1300000,
+      "paket": [
+        { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
+        { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
+        { "durasi": 5, "bulanan": 320000, "cash": 19200000 },
+        { "durasi": 3, "bulanan": 380000, "cash": 13680000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "TIGA SUHU AIR Menghasilkan air dingin, panas, dan normal, sesuai dengan kebutuhan kamu.",
+      "SMART ENERGY SAVING FUNCTION Energi listrik dapat dikurangi hingga 20% dengan Eco Mode yang cerdas menggunakan sensor cahaya, sehingga dapat mendeteksi waktu siang ataupun malam hari.",
+      "KERAN YANG MUDAH DILEPAS Deco keran air yang dapat dilepaskan dan mudah untuk dibersihkan, sehingga lebih higienis.",
+      "UKURAN OPTIMAL DENGAN DESAIN ELEGAN Ukurannya yang kecil, menjadikannya mudah diletakkan di mana pun.",
+      "CHILD SAFETY LOCK Aman digunakan pada lingkungan keluarga dengan adanya safety lock. Air panas tidak akan keluar jika tombol hot water safety tidak ditekan.",
+      "TUAS DENGAN 2 MODE EKSTRAKSI Tekan tuas untuk mengeluarkan air dengan jumlah yang diinginkan, atau tarik tuas ke atas untuk mengeluarkan air secara terus menerus."
+    ],
+    "image": "images/coway-wp-neoplus.png",
+    "description": "SMALL IN SIZE, BIG IN FUNCTION | Pemurni air berukuran ringkas, namun memiliki semua fungsi penting."
+  },
+  {
+    "id": 3,
+    "name": "Villaem II CHP-18AR",
+    "category": "Water Purifier",
+    "price": 15730000,
+    "packprice": {
+      "filter": 1500000,
+      "paket": [
+        { "durasi": 7, "bulanan": 310000, "cash": 26040000 },
+        { "durasi": 6, "bulanan": 350000, "cash": 25200000 },
+        { "durasi": 5, "bulanan": 370000, "cash": 22200000 },
+        { "durasi": 3, "bulanan": 450000, "cash": 16200000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "DESAIN MODERN & MINIMALIS Desain sederhana dan kokoh dengan lampu penerang di malam hari. Sangat cocok untuk rumah modern Anda.",
+      "KERAN YANG MUDAH DILEPAS Keran yang dapat dilepas untuk memudahkan pembersihan.",
+      "INDIKATOR TINGKAT RENDAH AIR Indikator dinyalakan ketika level air tangki air bagian dalam menjadi rendah.",
+      "4 PILIHAN SUHU AIR Mengeluarkan air panas, hangat, dingin, dan sesuai suhu ruangan untuk menyesuaikan kebutuhan semua umur."
+    ],
+    "image": "images/coway-wp-villaem2.png",
+    "description": "LIGHTEN YOUR WATER LIFE | Sederhana, rapi, namun kokoh. Pemurni air terbaik yang minimalis."
+  },
+  {
+    "id": 4,
+    "name": "Ombak CHP-731OR",
+    "category": "Water Purifier",
+    "price": 18460000,
+    "packprice": {
+      "filter": 1500000,
+      "paket": [
+        { "durasi": 7, "bulanan": 350000, "cash": 29400000 },
+        { "durasi": 6, "bulanan": 390000, "cash": 28080000 },
+        { "durasi": 5, "bulanan": 430000, "cash": 25800000 },
+        { "durasi": 3, "bulanan": 550000, "cash": 19800000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "KAPASITAS AIR PANAS TERBESAR Sekarang Anda dapat dengan cepat membuat mie gelas atau menyeduh susu bayi pada tengah malam karena Ombak memenuhi kebutuhan Anda untuk air panas dengan kapasitas tangki tersebsar dikelasnya.",
+      "CHILD SAFETY LOCK Menjaga anak Anda aman dan terhindar dari luka air panas.",
+      "PEMURNI AIR DENGAN UV STERILIZATION Fitur Ekstra dari Ombak yang menyala secara otomatis untuk air suhu dingin dan normal.",
+      "SUHU YANG TEPAT DI SETIAP SAAT Pemurni air dengan 50 kombinasi pengaturan suhu dan volume yang bisa kamu sesuaikan untuk mudahkan harimu."
+    ],
+    "image": "images/coway-wp-ombak.png",
+    "description": "SMART CHOICE, SMART BEGINING | Pemurni air dengan 50 kombinasi suhu & volume sesuai kebutuhan."
+  },
+  {
+    "id": 5,
+    "name": "Villaem III CHP-732OR",
+    "category": "Water Purifier",
+    "price": 18460000,
+    "packprice": {
+      "filter": 1500000,
+      "paket": [
+        { "durasi": 7, "bulanan": 330000, "cash": 27320000 },
+        { "durasi": 6, "bulanan": 370000, "cash": 26640000 },
+        { "durasi": 5, "bulanan": 430000, "cash": 25800000 },
+        { "durasi": 3, "bulanan": 550000, "cash": 19800000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "Hot Water 95°C Penuhi kebutuhan air panas di rumah Anda, yang cocok untuk segala kebutuhan mulai dari 70°C, 80°C dan 95°C.",
+      "Teknologi Layar Sentuh Dapatkan air minum dengan mudah dalam satu sentuhan.",
+      "UV Care bekerja selama 3 jam, setiap 12 jam sekali, saat cover bagian atas tangki dalam keadaan tertutup.",
+      "Beragam Pilihan Suhu Air Panas dan Hangat Tersedia 6 pilihan suhu yang dapat dengan mudah diatur."
+    ],
+    "image": "images/coway-wp-villaem3.png",
+    "description": "DISEMPURNAKAN OLEH KEMAJUAN | Diciptakan untuk kehidupan yang modern, serta didukung oleh inovasi."
+  },
+  {
+    "id": 6,
+    "name": "Core CHP-671R",
+    "category": "Water Purifier",
+    "price": 18850000,
+    "packprice": {
+      "filter": 1800000,
+      "paket": [
+        { "durasi": 7, "bulanan": 370000, "cash": 31080000 },
+        { "durasi": 6, "bulanan": 410000, "cash": 29520000 },
+        { "durasi": 5, "bulanan": 450000, "cash": 27000000 },
+        { "durasi": 3, "bulanan": 570000, "cash": 20520000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "10,3 L/jam",
+      "electric": "530W - 660W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "TAMPILAN LED TEMPERATUR AIR Dengan adanya layar LED temperatur air, Anda dapat dengan mudah melihat suhu air secara langsung.",
+      "TOMBOL PUTAR Tombol yang dapat mengatur untuk air dingin atau normal.",
+      "DAPAT MENAMPUNG WADAH YANG TINGGI Dispenser yang tinggi dapat menampung botol air minum.",
+      "Tangki Isi Ulang yang besar"
+    ],
+    "image": "images/coway-wp-core.png",
+    "description": "ENHANCE YOUR CORE BUSINESS | Coway Core dirancang supaya pintar memenuhi kebutuhan air yang sangat murni untuk Anda."
+  },
+  {
+    "id": 7,
+    "name": "Kristal Ice CHPI-752OL",
+    "category": "Water Purifier",
+    "price": 25000000,
+    "packprice": {
+      "filter": 1800000,
+      "paket": [
+        { "durasi": 7, "bulanan": 470000, "cash": 39480000 },
+        { "durasi": 6, "bulanan": 510000, "cash": 36720000 },
+        { "durasi": 5, "bulanan": 580000, "cash": 34800000 },
+        { "durasi": 3, "bulanan": 870000, "cash": 31320000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "WATER AND ICE IN ONE FUNCTION Tersedia air dingin, panas, normal dan es batu untuk pemakaian sehari-hari.",
+      "Elegant Design Tersedia dalam dua pilihan warna Pebble Grey dan Porcelain White, yang cocok untuk dapur Anda.",
+      "Dual UV Sterilization Terdapat UV Sterlization Filter di dalam tangki es, yang menjaga agar kondisi es tetap higienis. Serta UV Sterilization Filter di faucet untuk air dingin, normal, dan panas."
+    ],
+    "image": "images/coway-wp-kristal.png",
+    "description": "PEMURNI AIR DENGAN PEMBUAT ES UNTUK PENINGKATAN KUALITAS HIDUP | Mencari kesempurnaan dalam setiap aspek kehidupan tanpa mengorbankan kualitas, kenyamanan, dan estetika."
+  },
+  {
+    "id": 8,
+    "name": "Cartridge AP-1019A",
+    "category": "Air Purifier",
+    "price": 3000000,
+    "packprice": {
+      "filter": 500000,
+      "paket": [
+        { "durasi": 7, "bulanan": null, "cash": null },
+        { "durasi": 6, "bulanan": null, "cash": null },
+        { "durasi": 5, "bulanan": null, "cash": null },
+        { "durasi": 3, "bulanan": null, "cash": null }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "PANEL SENTUH - Anda dapat mengatur kecepatan kipas, power, lampu on/off, dan reset filter hanya dengan sentuhan sederhana.",
+      "Monitor kualitas udara dengan cahaya lampu 4-langkah.",
+      "Kontrol otomatis bereaksi terhadap kualitas udara.",
+      "Opsi tombol lampu.",
+      "Lampu indikator pemberitahuan untuk pergantian filter deodorisasi/HEPA.",
+      "Pada mode otomatis, sensor debu terus memantau udara dalam ruangan Anda. Kualitas udara ditampilkan oleh lampu LED 4 warna sehingga membantu Anda menentukan mode untuk menjalankan pemurni udara Anda. Biru-Baik, Hijau-Sedang, Kuning-Tidak Sehat, Merah-Berbahaya",
+      "SILENT MODE - Jika Anda ingin tidur atau menikmati pemurni udara dengan tenang, setel ke Silent Mode. Sehingga menciptakan suasana yang nyaman dengan meminimalkan volume udara melalui tingkat kebisingan dan konsumsi daya yang rendah.",
+      "DESAIN KATRID DENGAN PEMISAH BATCH - Mengganti filter akan lebih mudah dari sebelumnya tanpa khawatir akan debu yang beterbangan. Dan Anda dapat memindahkan pre-filter ke lokasi pilihan Anda sebelum penggantian.",
+      "SISTEM FILTRASI POWERFUL - Filtrasi 3 langkah menghilangkan mulai debu kasar (rambut hewan) hingga mikroorganisme (virus, bakteri) untuk menjaga kemurnian udara sepanjang waktu."
+    ],
+    "image": "images/cartridge.png",
+    "description": "SIMPLE, EASY & COLORFUL | Awal dari kehidupan bersih yang sederhana."
+  },
+  {
+    "id": 9,
+    "name": "Breeze AP-1018F",
+    "category": "Air Purifier",
+    "price": 8400000,
+    "packprice": {
+      "filter": 1000000,
+      "paket": [
+        { "durasi": 7, "bulanan": 190000, "cash": 15960000 },
+        { "durasi": 6, "bulanan": 210000, "cash": 15120000 },
+        { "durasi": 5, "bulanan": 230000, "cash": 13800000 },
+        { "durasi": 3, "bulanan": 270000, "cash": 97200000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "Mode - Pilih dari mode Otomatis atau Turbo, Anda dapat mengatur dengan sesuka hati atau Breeze yang mengaturnya.",
+      "Smart ECO - Secara otomatis pemurni udara Breeze dalam keadaan standby saat udara dalam ruangan bersih, sehingga mengurangi konsumsi listrik.",
+      "Kecepatan Angin - Sesuaikan kecepatan kipas secara manual dari Sunyi hingga Kecepatan 2 dengan sangat mudah.",
+      "Indikator LED - Nyalakan lampu LED saat Anda ingin mengetahui tingkat polusi udara, atau Anda dapat mematikannya jika tidak perlu.",
+      "AMAN UNTUK ANAK - Child Safety Lock dapat diaktifkan untuk mencegah perubahan mode penyaringan, dan mati secara otomatis bila penutup dilepas atau longgar untuk mengurangi bahaya.",
+      "SENSOR CAHAYA - Indikator LED dimatikan secara otomatis ketika pencahayaan di sekitarnya redup lebih dari 3 menit agar tidur lebih nyaman.",
+      "SENSOR DEBU - Secara efektif dapat mendeteksi tingkat debu di udara untuk penyaringan yang lebih komprehensif.",
+      "GRILL OUTLET DAPAT DILEPAS - Grill outlet udara dapat dilepas dan dicuci untuk menjaga kebersihan pemurni udara."
+    ],
+    "image": "images/coway-ap-breeze.png",
+    "description": "FRESH BREEZE LIKE A BABY'S BREATH | Menghirup udara segar kapan saja bukan lagi sekedar mimpi."
+  },
+  {
+    "id": 10,
+    "name": "Storm AP-1516D",
+    "category": "Air Purifier",
+    "price": 9600000,
+    "packprice": {
+      "filter": 1000000,
+      "paket": [
+        { "durasi": 7, "bulanan": 210000, "cash": 17460000 },
+        { "durasi": 6, "bulanan": 230000, "cash": 16560000 },
+        { "durasi": 5, "bulanan": 250000, "cash": 15000000 },
+        { "durasi": 3, "bulanan": 300000, "cash": 10800000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "Aliran Udara ke Segala Arah | Adanya pengatur arah aliran udara dari debu rumahan & polusi udara, secara menyeluruh, hingga debu sangat halus atau bau asap",
+      "Sirkulator yang kuat | Memperluas aliran udara dengan jangkauan sampai dengan 6 meter yang dapat meningkatkan sirkulasi udara dalam ruang dengan efektif, membuat Anda tidak lagi merasa sesak.",
+      "Haze Mode | Memiliki fitur menyerap asap dengan sempurna.",
+      "4 STEPS HEPA FILTER SYSTEM Sistem 4 langkah HEPA filter Coway dapat menyaring 99.99% partikel di udara dengan ukuran 0.01 micrometer.",
+      "Floor area: 49.5 m2",
+      "Noise: under 50 dB",
+      "Rentang days: 65 W",
+      "Safety: Stop operating when the fron cober pens"
+    ],
+    "image": "images/coway-ap-storm.png",
+    "description": "CLEAN AIR FROM STORM, WHEREVER YOU ARE | Pembersih udara kuat dengan 3 jenis kontrol multi-sirkulasi untuk memurnikan udara di ruangan Anda."
+  },
+  {
+    "id": 11,
+    "name": "Next Storm AP-2025A",
+    "category": "Air Purifier",
+    "price": 11280000,
+    "packprice": {
+      "filter": 1000000,
+      "paket": [
+        { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
+        { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
+        { "durasi": 5, "bulanan": 320000, "cash": 19200000 },
+        { "durasi": 3, "bulanan": 390000, "cash": 14040000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "Eco Mode Saat Malam Hari Saat dalam kondisi 'sleep mode' produk 22% akan lebih senyap dan suara yang dihasilkan hanya 45.2dB.",
+      "Aliran udara ke segala arah | Filtrasi udara sangat diperlukan agar paru-paru dan tubuh Anda terjaga. Dengan pemurni udara Coway Next Storm, miliki 3 arah sirkulasi pemurni dan kekuatan Turbo Fan 55 mm",
+      "serta Mode Haze yang mampu membersihkan udara dengan cepat",
+      "Mode Silent untuk tidur Anda yang lebih berkualitas.",
+      "Ukuran Ruangan  65 m2",
+      "Tingkat Kebisingan: 51 dB",
+      "Konsumsi Listrik: 65 W"
+    ],
+    "image": "images/coway-ap-nextstorm.png",
+    "description": "DEFINISI BARU AIR PURIFIER: LEBIH LUAS, LEBIH KUAT, & LEBIH SENYAP | Lebih baik dalam segala hal, memberikan Anda nilai dua kali lipat."
+  },
+  {
+    "id": 12,
+    "name": "Lombok AP-1520C",
+    "category": "Air Purifier",
+    "price": 12222000,
+    "packprice": {
+      "filter": 1200000,
+      "paket": [
+        { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
+        { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
+        { "durasi": 5, "bulanan": 320000, "cash": 19200000 },
+        { "durasi": 3, "bulanan": 390000, "cash": 14040000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "INDIKATOR PM2,5 & BAU| Sesuai standar internasional dalam mengukur kebersihan saat partikel udara berukuran lebih kecil dari 2.5 mikron (μm) dan menandai bau gas.",
+      "6 STEPS HEPA FILTER SYSTEM| Sistem 6 langkah HEPA filter Coway dapat menyaring 99.99% partikel di udara dengan ukuran 0.01 micrometer.",
+      "PEMURNI UDARA DENGAN IONISER| Mengeliminasi oksigen aktif dan listrik statis pada udara.",
+      "PANEL SENTUH| Pilih pengaturan pilihan Anda hanya dengan satu sentuhan pada panel Coway Lombok.",
+      "3 TAHAP KECEPATAN| Tersedia 3 kecepatan angin yang dapat dipilih sesuai dengan kebutuhan Anda.",
+      "SISTEM CHILD LOCK| Menjaga pengaturan Anda agar aman dari sentuhan yang tidak disengaja."
+    ],
+    "image": "images/coway-ap-lombok.png",
+    "description": "LEBIH DARI SEKEDAR PEMURNI UDARA | Tetap terlindungi dengan RBD Plasma dan Ioniser dari Coway."
+  },
+  {
+    "id": 13,
+    "name": "Noble 2 AP-2023K",
+    "category": "Air Purifier",
+    "price": 17582400,
+    "packprice": {
+      "filter": 1800000,
+      "paket": [
+        { "durasi": 7, "bulanan": 410000, "cash": 34440000 },
+        { "durasi": 6, "bulanan": 440000, "cash": 31680000 },
+        { "durasi": 5, "bulanan": 470000, "cash": 28200000 },
+        { "durasi": 3, "bulanan": 550000, "cash": 19800000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "3,2 L/jam",
+      "electric": "20 W",
+      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
+    },
+    "fitur": [
+      "DESAIN MODERN DAN MEWAH| Noble menampilkan desain peraih penghargaan dengan warna Peble Gray yang harmonis dan motif alami yang cocok dengan hampir semua ruang.",
+      "LAYAR MEWAH TERSEMBUNYI| Tampilan light-up bercahaya lembut, menambah kemewahan minimalis.",
+      "Clean Mode| Pilih Smart, Turbo, Silent atau ECO sesuai kebutuhan Anda.",
+      "Circulation Mode| Ubah aliran udara ke arah Normal, Depan, atau Belakang.",
+      "Light / Lock| Nyalakan/Matikan lampu indikator atau tahan 3 detik untuk mengunci tombol.",
+      "Information| Menampilkan tingkat kualitas udara saat ini dan debu sangat halus.",
+      "Speed| Atur kecepatan kipas sesuai dengan kebutuhan Anda.",
+      "FILTER 4D + PEMURNIAN 360°| Noble menghadirkan filter 4D untuk pemurnian 360° guna menangkap, membersihkan, dan mengalirkan udara dari segala arah.",
+      "INDIKATOR REAL-TIME KUALITAS UDARA| Warna indikator LED menandakan bagaimana tingkat polusi udara di dalam ruangan saat ini."
+    ],
+    "image": "images/coway-ap-noble2.png",
+    "description": "TINGKATKAN UDARA ANDA, TINGKATKAN RUANG ANDA | Perawatan udara tingkat lanjut yang dipersonalisasi untuk ruangan yang layak mendapatkan kualitas udara yang luar biasa."
+  },
+  {
+    "id": 14,
+    "name": "POE-23E",
+    "category": "Outdoor Filter",
+    "price": 15000000,
+    "packprice": {
+      "filter": 1300000,
+      "paket": [
+        { "durasi": 7, "bulanan": 290000, "cash": 24360000 },
+        { "durasi": 6, "bulanan": null, "cash": null },
+        { "durasi": 5, "bulanan": null, "cash": null },
+        { "durasi": 3, "bulanan": null, "cash": null }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "",
+      "electric": "",
+      "tangki": ""
+    },
+    "fitur": [
+      "PVDF Ultrafiltrasi Membran. Menyaring kotoran serta memfiltrasi air hingga 0,01 mikron. Dengan menerapkan konsep inside-out mampu menghilangkan kotoran paling kecil sekalipun.",
+      "Tidak Membutuhkan Listrik. Filter ini dapat bekerja dengan mengandalkan baterai AA. Sehingga tetap bisa memfilter air meski saat listrik padam.",
+      "Cocok Untuk Tekanan Air Kecil. Filter tetap mampu bekerja walaupun dengan tekanan air yang rendah sekalipun mulai dari 15psi - 80psi, sangat cocok untuk rumah-rumah di Indonesia.",
+      "Katup Multiport 4 Arah Praktis Digunakan. Filter tahan lama dengan katup multiport 4 arah untuk kontrol maksimal. Dilengkapi dengan tuas yang mudah digunakan, dapat dengan cepat beralih antara mode filter, bypass, pencucian cepat, dan backwash.",
+      "Material Bebas Karat. Dirancang untuk penggunaan jangka panjang, dengan material stainless steel berkualitas tinggi, mulai dari rangka hingga bracket, untuk daya tahan maksimal."
+    ],
+    "image": "images/coway-POE-23A.png",
+    "description": "Solusi Air Bersih Rumah Tangga. Berikan perlindungan lebih, dengan air yang bersih, jernih dan bebas kuning serta karat di rumah Anda."
+  }
+]
