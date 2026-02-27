@@ -23,6 +23,26 @@ $(document).ready(function () {
     });
   }
 
+  /* =========================
+     Audio backsound
+  ========================== */
+  var audio = document.getElementById("bgAudio");
+  var isPlaying = false;
+
+  $("#toggleAudio").click(function(){
+
+    if(!isPlaying){
+      audio.play();
+      $(this).html('<i class="bi bi-volume-mute-fill"></i>');
+      isPlaying = true;
+    } else {
+      audio.pause();
+      $(this).html('<i class="bi bi-volume-up-fill"></i>');
+      isPlaying = false;
+    }
+
+  });
+
 
   /* =========================
      TRACKING FUNCTIONS
@@ -80,4 +100,5 @@ $(document).ready(function () {
   }
 
 });
+
 
