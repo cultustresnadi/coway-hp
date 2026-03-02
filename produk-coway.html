@@ -608,10 +608,8 @@
             <!-- <div class="col-md-5 text-center"> -->
             <div class="col-md-6">  
               <img id="modalProductImage" class="img-fluid rounded" alt="">
-              <p id="modalProductDescription" class="text-muted"></p>
-            </div>
+              <p id="modalProductDescription" class="text-muted"></p><br>
 
-            <div class="col-md-6">
               <h3 class="fw-bold mt-3" style="color: #00a8b5;">Harga</h3>
               <div class="border rounded p-3 mb-3 bg-light">
                 <div class="d-flex justify-content-between">
@@ -649,13 +647,24 @@
                 <i class="fa-brands fa-whatsapp me-1"></i>
                 Order via WhatsApp
               </a>
-              
-              <div class="divider-wave" data-aos="fade-up"></div>
+            </div>
 
+            <div class="col-md-6">
               <h6 class="fw-bold mt-3">Fitur Produk:</h6>
               <!-- <ul id="modalProductFitur" class="list-group list-group-flush mb-3"> -->
               <ul id="modalProductFitur" class="list-unstyled">
               </ul>
+              <div class="divider-wave" data-aos="fade-up"></div>
+
+              <div class="container-fluid">
+                <div class="ratio ratio-16x9">
+                  <iframe id="modalProductVideo"
+                      title="Video Produk 1"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -891,6 +900,7 @@
         $("#modalProductImage").attr("src", product.image);
         $("#modalProductDescription").text(product.description);
 
+        $("#modalProductVideo").attr("src", product.video);
         $("#modalPriceUnit").text(formatRupiah(product.price));
         $("#modalPriceFilter").text(formatRupiah(product.packprice.filter));
 
@@ -975,6 +985,7 @@
 
 </body>
 </html>
+
 
 
 
