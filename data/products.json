@@ -5,7 +5,7 @@
     "category": "Water Purifier",
     "price": 7200000,
     "packprice": {
-      "filter": 1300000,
+      "filter": 1500000,
       "paket": [
         { "durasi": 7, "bulanan": 180000, "cash": 15120000 },
         { "durasi": 6, "bulanan": 200000, "cash": 14400000 },
@@ -23,7 +23,7 @@
       "FUNGSI PRAKTIS & MINIMALIS Menyediakan semua fungsi yang mudah digunakan dalam bentuk minimalis yang cantik.",
       "TOMBOL DIGITAL SEKALI SENTUH Lebih nyaman dengan kemudahan satu sentuhan ringan memilih 3 jenis takaran air 250ml | 500ml | 1l"
     ],
-    "image": "images/coway-wp-cinnamon.png",
+    "image": "images/Newwow/coway-wp_cinnamon.png",
     "video": "https://www.youtube.com/embed/MCCu5Cv5vtE",
     "description": "SI MUNGIL UNTUK AIR TANPA BATAS | Pemurni air yang memenuhi kebutuhan utama, dalam ukuran minimalis dan desain elegan"
   },
@@ -33,7 +33,7 @@
     "category": "Water Purifier",
     "price": 11760000,
     "packprice": {
-      "filter": 1300000,
+      "filter": 1500000,
       "paket": [
         { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
         { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
@@ -54,7 +54,7 @@
       "CHILD SAFETY LOCK Aman digunakan pada lingkungan keluarga dengan adanya safety lock. Air panas tidak akan keluar jika tombol hot water safety tidak ditekan.",
       "TUAS DENGAN 2 MODE EKSTRAKSI Tekan tuas untuk mengeluarkan air dengan jumlah yang diinginkan, atau tarik tuas ke atas untuk mengeluarkan air secara terus menerus."
     ],
-    "image": "images/coway-wp-neoplus.png",
+    "image": "images/Newwow/coway-wp_neoplus.png",
     "video": "https://www.youtube.com/embed/hdRKhqn2SJY",
     "description": "SMALL IN SIZE, BIG IN FUNCTION | Pemurni air berukuran ringkas, namun memiliki semua fungsi penting."
   },
@@ -83,7 +83,7 @@
       "INDIKATOR TINGKAT RENDAH AIR Indikator dinyalakan ketika level air tangki air bagian dalam menjadi rendah.",
       "4 PILIHAN SUHU AIR Mengeluarkan air panas, hangat, dingin, dan sesuai suhu ruangan untuk menyesuaikan kebutuhan semua umur."
     ],
-    "image": "images/coway-wp-villaem2.png",
+    "image": "images/Newwow/coway-wp_villaemII.png",
     "video": "https://www.youtube.com/embed/ANltrRzXSNo",
     "description": "LIGHTEN YOUR WATER LIFE | Sederhana, rapi, namun kokoh. Pemurni air terbaik yang minimalis."
   },
@@ -112,7 +112,7 @@
       "PEMURNI AIR DENGAN UV STERILIZATION Fitur Ekstra dari Ombak yang menyala secara otomatis untuk air suhu dingin dan normal.",
       "SUHU YANG TEPAT DI SETIAP SAAT Pemurni air dengan 50 kombinasi pengaturan suhu dan volume yang bisa kamu sesuaikan untuk mudahkan harimu."
     ],
-    "image": "images/coway-wp-ombak.png",
+    "image": "images/Newwow/coway-wp_ombak.png",
     "video": "https://www.youtube.com/embed/8zsOFZitwqU",
     "description": "SMART CHOICE, SMART BEGINING | Pemurni air dengan 50 kombinasi suhu & volume sesuai kebutuhan."
   },
@@ -124,7 +124,7 @@
     "packprice": {
       "filter": 1500000,
       "paket": [
-        { "durasi": 7, "bulanan": 330000, "cash": 27320000 },
+        { "durasi": 7, "bulanan": 330000, "cash": 27720000 },
         { "durasi": 6, "bulanan": 370000, "cash": 26640000 },
         { "durasi": 5, "bulanan": 430000, "cash": 25800000 },
         { "durasi": 3, "bulanan": 550000, "cash": 19800000 }
@@ -141,7 +141,7 @@
       "UV Care bekerja selama 3 jam, setiap 12 jam sekali, saat cover bagian atas tangki dalam keadaan tertutup.",
       "Beragam Pilihan Suhu Air Panas dan Hangat Tersedia 6 pilihan suhu yang dapat dengan mudah diatur."
     ],
-    "image": "images/coway-wp-villaem3.png",
+    "image": "images/Newwow/coway-wp_villaemIII.png",
     "video": "https://www.youtube.com/embed/GqQVB7aC5mE",
     "description": "DISEMPURNAKAN OLEH KEMAJUAN | Diciptakan untuk kehidupan yang modern, serta didukung oleh inovasi."
   },
@@ -170,7 +170,7 @@
       "DAPAT MENAMPUNG WADAH YANG TINGGI Dispenser yang tinggi dapat menampung botol air minum.",
       "Tangki Isi Ulang yang besar"
     ],
-    "image": "images/coway-wp-core.png",
+    "image": "images/Newwow/coway-wp_core.png",
     "video": "https://www.youtube.com/embed/cAPkIcbg1DQ",
     "description": "ENHANCE YOUR CORE BUSINESS | Coway Core dirancang supaya pintar memenuhi kebutuhan air yang sangat murni untuk Anda."
   },
@@ -180,12 +180,12 @@
     "category": "Water Purifier",
     "price": 25000000,
     "packprice": {
-      "filter": 1800000,
+      "filter": 1500000,
       "paket": [
-        { "durasi": 7, "bulanan": 470000, "cash": 39480000 },
-        { "durasi": 6, "bulanan": 510000, "cash": 36720000 },
-        { "durasi": 5, "bulanan": 580000, "cash": 34800000 },
-        { "durasi": 3, "bulanan": 870000, "cash": 31320000 }
+        { "durasi": 7, "bulanan": 440000, "cash": 36960000 },
+        { "durasi": 6, "bulanan": 480000, "cash": 34560000 },
+        { "durasi": 5, "bulanan": 550000, "cash": 33000000 },
+        { "durasi": 3, "bulanan": 840000, "cash": 30240000 }
       ]
     },
     "spec": {
@@ -198,7 +198,7 @@
       "Elegant Design Tersedia dalam dua pilihan warna Pebble Grey dan Porcelain White, yang cocok untuk dapur Anda.",
       "Dual UV Sterilization Terdapat UV Sterlization Filter di dalam tangki es, yang menjaga agar kondisi es tetap higienis. Serta UV Sterilization Filter di faucet untuk air dingin, normal, dan panas."
     ],
-    "image": "images/coway-wp-kristal.png",
+    "image": "images/Newwow/coway-wp_kristal.png",
     "video": "https://www.youtube.com/embed/0G7Q0hXiZKA",
     "description": "PEMURNI AIR DENGAN PEMBUAT ES UNTUK PENINGKATAN KUALITAS HIDUP | Mencari kesempurnaan dalam setiap aspek kehidupan tanpa mengorbankan kualitas, kenyamanan, dan estetika."
   },
@@ -242,7 +242,7 @@
     "category": "Air Purifier",
     "price": 8400000,
     "packprice": {
-      "filter": 1000000,
+      "filter": 1100000,
       "paket": [
         { "durasi": 7, "bulanan": 190000, "cash": 15960000 },
         { "durasi": 6, "bulanan": 210000, "cash": 15120000 },
@@ -275,7 +275,7 @@
     "category": "Air Purifier",
     "price": 9600000,
     "packprice": {
-      "filter": 1000000,
+      "filter": 1100000,
       "paket": [
         { "durasi": 7, "bulanan": 210000, "cash": 17460000 },
         { "durasi": 6, "bulanan": 230000, "cash": 16560000 },
@@ -308,7 +308,7 @@
     "category": "Air Purifier",
     "price": 11280000,
     "packprice": {
-      "filter": 1000000,
+      "filter": 1400000,
       "paket": [
         { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
         { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
@@ -340,7 +340,7 @@
     "category": "Air Purifier",
     "price": 12222000,
     "packprice": {
-      "filter": 1200000,
+      "filter": 1500000,
       "paket": [
         { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
         { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
@@ -371,7 +371,7 @@
     "category": "Air Purifier",
     "price": 17582400,
     "packprice": {
-      "filter": 1800000,
+      "filter": 2000000,
       "paket": [
         { "durasi": 7, "bulanan": 410000, "cash": 34440000 },
         { "durasi": 6, "bulanan": 440000, "cash": 31680000 },
