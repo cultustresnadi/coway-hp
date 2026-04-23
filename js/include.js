@@ -23,6 +23,7 @@ $(document).ready(function () {
     });
   }
 
+
   /* =========================
      Audio backsound
   ========================== */
@@ -42,7 +43,20 @@ $(document).ready(function () {
     }
 
   });
+  /*
+  var audio = document.getElementById("bgAudio");
 
+  $("#toggleAudio").click(function(){
+      if(audio.muted){
+          audio.muted = false;
+          $(this).html('<i class="bi bi-volume-up-fill"></i>');
+      } else {
+          audio.muted = true;
+          $(this).html('<i class="bi bi-volume-mute-fill"></i>');
+      }
+  });
+  */
+  
 
   /* =========================
      TRACKING FUNCTIONS
@@ -99,6 +113,5 @@ $(document).ready(function () {
     return "Rp " + value.toLocaleString("id-ID");
   }
 
+
 });
-
-
