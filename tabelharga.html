@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Produk</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- DataTables
+    <link rel="stylesheet" href="css/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="css/datatables-responsive/css/responsive.bootstrap4.min.css">
+ -->
+    <link rel="stylesheet" href="css/coway.css">
+    <link rel="stylesheet" href="css/hero.css">
+
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+        .sortable {
+            cursor: pointer;
+        }
+        .sortable::after {
+            content: ' ⇅';
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="container my-5" data-aos="fade-up">
+            <h3 class="mb-4">Daftar Harga Produk</h3>
+
+            <!-- FILTER -->
+            <div class="mb-3">
+                <div class="row align-items-center">
+
+                    <!-- LEFT: FILTER (1/4 layar di desktop) -->
+                    <div class="col-12 col-md-4">
+                        <div class="d-flex align-items-center gap-2 flex-nowrap">
+                            <label class="mb-0 text-nowrap">Filter Paket:</label>
+                            <select id="filterDurasi" class="form-select flex-grow-1">
+                                <option value="all">Semua</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- MIDDLE: RESET (auto width) -->
+                    <div class="col-12 col-md-auto mt-2 mt-md-0">
+                        <button id="resetSort" class="btn btn-secondary">
+                            Reset
+                        </button>
+                    </div>
+
+                    <!-- RIGHT: SEARCH (1/4 layar & rata kanan) -->
+                    <div class="col-12 col-md-3 ms-md-auto mt-2 mt-md-0">
+                        <input type="text" id="searchName" class="form-control" placeholder="Cari nama produk...">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- TABLE -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th data-key="id" class="sortable">ID</th>
+                            <th data-key="name" class="sortable">Produk</th>
+                            <th data-key="durasi" class="sortable">Paket</th>
+                            <th data-key="bulanan" class="sortable">Bulanan</th>
+                            <th data-key="cash" class="sortable">Cash</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- DataTables
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="js/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="js/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+ -->
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+
+        let allData = [];
+        let sortKeys = [];
+        let currentFilter = 'all';
+        let currentSearch = '';
+
+        let typingTimer;
+        $('#searchName').on('keyup', function() {
+            clearTimeout(typingTimer);
+            typingTimer = setTimeout(() => {
+                currentSearch = $(this).val().toLowerCase();
+                applyAll();
+            }, 300);
+        });
+
+
+        // HANDLE CLICK HEADER
+        $(document).on('click', '.sortable', function () {
+            let key = $(this).data('key');
+
+            // cek apakah sudah ada di sortKeys
+            let existing = sortKeys.find(k => k.key === key);
+
+            if (existing) {
+                // toggle asc/desc
+                existing.order = existing.order === 'asc' ? 'desc' : 'asc';
+            } else {
+                // tambahkan sebagai prioritas terakhir
+                sortKeys.push({ key: key, order: 'asc' });
+            }
+
+            applyAll();
+        });
+
+        function applyAll() {
+            let data = [...allData];
+
+            // 1. FILTER DURASI
+            if (currentFilter !== 'all') {
+                data = data.filter(item => item.durasi == currentFilter);
+            }
+
+            // 2. SEARCH NAME
+            if (currentSearch !== '') {
+                data = data.filter(item =>
+                    item.name.toLowerCase().includes(currentSearch)
+                );
+            }
+
+            // 3. SORT MULTI KEY
+            if (sortKeys.length > 0) {
+                data.sort((a, b) => {
+                    for (let i = 0; i < sortKeys.length; i++) {
+                        let { key, order } = sortKeys[i];
+
+                        let valA = a[key];
+                        let valB = b[key];
+
+                        if (typeof valA === 'string') {
+                            valA = valA.toLowerCase();
+                            valB = valB.toLowerCase();
+                        }
+
+                        if (valA < valB) return order === 'asc' ? -1 : 1;
+                        if (valA > valB) return order === 'asc' ? 1 : -1;
+                    }
+                    return 0;
+                });
+            }
+
+            renderTable(data);
+        }
+
+        $('#resetSort').click(function () {
+            sortKeys = [];
+            currentFilter = 'all';
+            currentSearch = '';
+
+            $('#filterDurasi').val('all');
+            $('#searchName').val('');
+
+            applyAll();
+        });
+
+        // FORMAT RUPIAH
+        function formatRupiah(angka) {
+            return new Intl.NumberFormat('id-ID', {
+                style: 'currency',
+                currency: 'IDR'
+            }).format(angka);
+        }
+
+        // LOAD JSON
+        $.getJSON('data/products.json', function(data) {
+                console.log("DATA:", data);
+
+            let durasiSet = new Set();
+
+            // FLATTEN DATA
+            data.forEach(produk => {
+                produk.packprice.paket.forEach(p => {
+                    allData.push({
+                        id: produk.id,
+                        name: produk.name,
+                        durasi: p.durasi,
+                        bulanan: p.bulanan,
+                        cash: p.cash
+                    });
+
+                    durasiSet.add(p.durasi);
+                });
+            });
+
+            // ISI FILTER
+            durasiSet.forEach(d => {
+                $('#filterDurasi').append(`<option value="${d}">${d} Tahun</option>`);
+            });
+
+            renderTable(allData);
+        }).fail(function(err){
+            console.error("ERROR LOAD JSON:", err);
+        });
+
+        // RENDER TABLE
+        function renderTable(data) {
+            let html = '';
+
+            console.log(data);
+            data.forEach(item => {
+                html += `
+                    <tr data-aos="fade-up">
+                        <td>${item.id}</td>
+                        <td>${item.name}</td>
+                        <td>${item.durasi} Tahun</td>
+                        <td>${formatRupiah(item.bulanan)}</td>
+                        <td>${formatRupiah(item.cash)}</td>
+                    </tr>
+                `;
+            });
+
+            $('#tableBody').html(html);
+        }
+
+        $('#filterDurasi').on('change', function() {
+            currentFilter = $(this).val();
+            applyAll();
+        });
+        $('#searchName').on('keyup', function() {
+            currentSearch = $(this).val().toLowerCase();
+            applyAll();
+        }); 
+    </script>
+
+    <!-- Include Navbar & Footer -->
+    <script src="js/include.js"></script>
+
+</body>
+</html>
