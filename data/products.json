@@ -6,6 +6,7 @@
     "price": 7200000,
     "packprice": {
       "filter": 1500000,
+      "filterbln": 150000,
       "paket": [
         { "durasi": 7, "bulanan": 180000, "cash": 15120000 },
         { "durasi": 6, "bulanan": 200000, "cash": 14400000 },
@@ -34,6 +35,7 @@
     "price": 11760000,
     "packprice": {
       "filter": 1500000,
+      "filterbln": 150000,
       "paket": [
         { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
         { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
@@ -65,6 +67,7 @@
     "price": 15730000,
     "packprice": {
       "filter": 1500000,
+      "filterbln": 150000,
       "paket": [
         { "durasi": 7, "bulanan": 310000, "cash": 26040000 },
         { "durasi": 6, "bulanan": 350000, "cash": 25200000 },
@@ -94,6 +97,7 @@
     "price": 18460000,
     "packprice": {
       "filter": 1500000,
+      "filterbln": 150000,
       "paket": [
         { "durasi": 7, "bulanan": 350000, "cash": 29400000 },
         { "durasi": 6, "bulanan": 390000, "cash": 28080000 },
@@ -123,6 +127,7 @@
     "price": 18460000,
     "packprice": {
       "filter": 1500000,
+      "filterbln": 150000,
       "paket": [
         { "durasi": 7, "bulanan": 330000, "cash": 27720000 },
         { "durasi": 6, "bulanan": 370000, "cash": 26640000 },
@@ -152,6 +157,7 @@
     "price": 18850000,
     "packprice": {
       "filter": 1800000,
+      "filterbln": 180000,
       "paket": [
         { "durasi": 7, "bulanan": 370000, "cash": 31080000 },
         { "durasi": 6, "bulanan": 410000, "cash": 29520000 },
@@ -181,6 +187,7 @@
     "price": 25000000,
     "packprice": {
       "filter": 1500000,
+      "filterbln": 150000,
       "paket": [
         { "durasi": 7, "bulanan": 440000, "cash": 36960000 },
         { "durasi": 6, "bulanan": 480000, "cash": 34560000 },
@@ -209,6 +216,7 @@
     "price": 3000000,
     "packprice": {
       "filter": 500000,
+      "filterbln": 0,
       "paket": [
         { "durasi": 7, "bulanan": null, "cash": null },
         { "durasi": 6, "bulanan": null, "cash": null },
@@ -243,6 +251,7 @@
     "price": 8400000,
     "packprice": {
       "filter": 1100000,
+      "filterbln": 110000,
       "paket": [
         { "durasi": 7, "bulanan": 190000, "cash": 15960000 },
         { "durasi": 6, "bulanan": 210000, "cash": 15120000 },
@@ -271,11 +280,66 @@
   },
   {
     "id": 10,
+    "name": "SquareFit",
+    "category": "Air Purifier",
+    "price": 8400000,
+    "packprice": {
+      "filter": 1100000,
+      "filterbln": 110000,
+      "paket": [
+        { "durasi": 7, "bulanan": 190000, "cash": 9720000 },
+        { "durasi": 6, "bulanan": 210000, "cash": 13800000 },
+        { "durasi": 5, "bulanan": 230000, "cash": 15120000 },
+        { "durasi": 3, "bulanan": 270000, "cash": 15960000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "",
+      "electric": "45 W",
+      "tangki": ""
+    },
+    "fitur": [
+      ""
+    ],
+    "image": "images/coway-ap-squarefit.jpg",
+    "video": "",
+    "description": ""
+  },
+  {
+    "id": 11,
+    "name": "SquareBig",
+    "category": "Air Purifier",
+    "price": 11280000,
+    "packprice": {
+      "filter": 1500000,
+      "filterbln": 150000,
+      "paket": [
+        { "durasi": 7, "bulanan": 270000, "cash": 14040000 },
+        { "durasi": 6, "bulanan": 290000, "cash": 18600000 },
+        { "durasi": 5, "bulanan": 310000, "cash": 20880000 },
+        { "durasi": 3, "bulanan": 390000, "cash": 22680000 }
+      ]
+    },
+    "spec": {
+      "vfiltrasi": "",
+      "electric": "78 W",
+      "tangki": ""
+    },
+    "fitur": [
+      ""
+    ],
+    "image": "images/coway-ap-squarebig.jpg",
+    "video": "",
+    "description": ""
+  },
+  {
+    "id": 12,
     "name": "Storm AP-1516D",
     "category": "Air Purifier",
     "price": 9600000,
     "packprice": {
       "filter": 1100000,
+      "filterbln": 110000,
       "paket": [
         { "durasi": 7, "bulanan": 210000, "cash": 17460000 },
         { "durasi": 6, "bulanan": 230000, "cash": 16560000 },
@@ -303,12 +367,13 @@
     "description": "CLEAN AIR FROM STORM, WHEREVER YOU ARE | Pembersih udara kuat dengan 3 jenis kontrol multi-sirkulasi untuk memurnikan udara di ruangan Anda."
   },
   {
-    "id": 11,
+    "id": 13,
     "name": "Next Storm AP-2025A",
     "category": "Air Purifier",
     "price": 11280000,
     "packprice": {
       "filter": 1400000,
+      "filterbln": 140000,
       "paket": [
         { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
         { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
@@ -335,12 +400,13 @@
     "description": "DEFINISI BARU AIR PURIFIER: LEBIH LUAS, LEBIH KUAT, & LEBIH SENYAP | Lebih baik dalam segala hal, memberikan Anda nilai dua kali lipat."
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "Lombok AP-1520C",
     "category": "Air Purifier",
     "price": 12222000,
     "packprice": {
       "filter": 1500000,
+      "filterbln": 150000,
       "paket": [
         { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
         { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
@@ -366,12 +432,13 @@
     "description": "LEBIH DARI SEKEDAR PEMURNI UDARA | Tetap terlindungi dengan RBD Plasma dan Ioniser dari Coway."
   },
   {
-    "id": 13,
+    "id": 15,
     "name": "Noble 2 AP-2023K",
     "category": "Air Purifier",
     "price": 17582400,
     "packprice": {
       "filter": 2000000,
+      "filterbln": 200000,
       "paket": [
         { "durasi": 7, "bulanan": 410000, "cash": 34440000 },
         { "durasi": 6, "bulanan": 440000, "cash": 31680000 },
@@ -400,12 +467,13 @@
     "description": "TINGKATKAN UDARA ANDA, TINGKATKAN RUANG ANDA | Perawatan udara tingkat lanjut yang dipersonalisasi untuk ruangan yang layak mendapatkan kualitas udara yang luar biasa."
   },
   {
-    "id": 14,
+    "id": 16,
     "name": "POE-23E",
     "category": "Outdoor Filter",
     "price": 15000000,
     "packprice": {
       "filter": 1300000,
+      "filterbln": 0,
       "paket": [
         { "durasi": 7, "bulanan": 290000, "cash": 24360000 },
         { "durasi": 6, "bulanan": null, "cash": null },
