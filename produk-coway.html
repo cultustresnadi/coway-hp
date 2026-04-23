@@ -530,6 +530,16 @@
       <!-- Image Grid -->
       <div class="row g-4">
         <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <img src="images/Newwow/Air-Combo-squarefit.png"
+              class="img-fluid rounded-4 shadow paket-img"
+              alt="Air Combo SquareFit"
+              data-bs-toggle="modal"
+              data-bs-target="#paketModal"
+              data-img="images/Newwow/Air-Combo-squarefit.png"
+              data-title="Air Combo SquareFit">
+        </div>
+
+        <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="300">
           <img src="images/Newwow/WOW-Poe-01.png"
               class="img-fluid rounded-4 shadow paket-img"
               alt="Paket Coway Combo 4.1"
@@ -570,12 +580,12 @@
         </div>
 
         <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="400">
-          <img src="images/combokristal.jpg"
+          <img src="images/Newwow/combokristal.png"
               class="img-fluid rounded-4 shadow paket-img"
               alt="Paket Coway Combo 5"
               data-bs-toggle="modal"
               data-bs-target="#paketModal"
-              data-img="images/combokristal.jpg"
+              data-img="images/Newwow/combokristal.png"
               data-title="WOW Combo Kristal">
         </div>
 
@@ -889,6 +899,7 @@
         products = data;
 
         $categoryFilter.val("all");
+        console.log(products);
 
         renderProducts(products);
         renderProductSelect(products);
