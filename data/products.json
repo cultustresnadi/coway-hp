@@ -299,7 +299,10 @@
       "tangki": ""
     },
     "fitur": [
-      "LIGHT SENSING - Otomatis masuk ke Mode Sleep (23dB) setelah 3 menit ruangan gelap", "AIR SENSING - Kecepatan udara beru ah otomatis mengikuti kualitas udara sekitar", "Untuk ukuran ruangan 33 M2", "Hemat listrik dengan daya 45 W"
+      "LIGHT SENSING - Otomatis masuk ke Mode Sleep (23dB) setelah 3 menit ruangan gelap", 
+      "AIR SENSING - Kecepatan udara beru ah otomatis mengikuti kualitas udara sekitar", 
+      "Untuk ukuran ruangan 33 M2", 
+      "Hemat listrik dengan daya 45 W"
     ],
     "image": "images/coway-ap-squarefit.jpg",
     "video": "",
