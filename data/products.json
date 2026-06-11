@@ -497,32 +497,7 @@
     "video": "https://www.youtube.com/embed/ml1lki_nXqE",
     "description": "Solusi Air Bersih Rumah Tangga. Berikan perlindungan lebih, dengan air yang bersih, jernih dan bebas kuning serta karat di rumah Anda."
   }
-]      "filter": 1500000,
-      "filterbln": 150000,
-      "paket": [
-        { "durasi": 7, "bulanan": 270000, "cash": 22680000 },
-        { "durasi": 6, "bulanan": 290000, "cash": 20880000 },
-        { "durasi": 5, "bulanan": 320000, "cash": 19200000 },
-        { "durasi": 3, "bulanan": 380000, "cash": 13680000 }
-      ]
-    },
-    "spec": {
-      "vfiltrasi": "3,2 L/jam",
-      "electric": "20 W",
-      "tangki": "Normal 2.5 L<br> Dingin 2.3 L<br>Panas 1.0 L"
-    },
-    "fitur": [
-      "TIGA SUHU AIR Menghasilkan air dingin, panas, dan normal, sesuai dengan kebutuhan kamu.",
-      "SMART ENERGY SAVING FUNCTION Energi listrik dapat dikurangi hingga 20% dengan Eco Mode yang cerdas menggunakan sensor cahaya, sehingga dapat mendeteksi waktu siang ataupun malam hari.",
-      "KERAN YANG MUDAH DILEPAS Deco keran air yang dapat dilepaskan dan mudah untuk dibersihkan, sehingga lebih higienis.",
-      "UKURAN OPTIMAL DENGAN DESAIN ELEGAN Ukurannya yang kecil, menjadikannya mudah diletakkan di mana pun.",
-      "CHILD SAFETY LOCK Aman digunakan pada lingkungan keluarga dengan adanya safety lock. Air panas tidak akan keluar jika tombol hot water safety tidak ditekan.",
-      "TUAS DENGAN 2 MODE EKSTRAKSI Tekan tuas untuk mengeluarkan air dengan jumlah yang diinginkan, atau tarik tuas ke atas untuk mengeluarkan air secara terus menerus."
-    ],
-    "image": "images/Newwow/coway-wp_neoplus.png",
-    "video": "https://www.youtube.com/embed/hdRKhqn2SJY",
-    "description": "SMALL IN SIZE, BIG IN FUNCTION | Pemurni air berukuran ringkas, namun memiliki semua fungsi penting."
-  },
+]      
   {
     "id": 3,
     "name": "Villaem II CHP-18AR",
