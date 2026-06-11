@@ -298,9 +298,12 @@
       "electric": "45 W",
       "tangki": ""
     },
-    "fitur": [
-      ""
-    ],
+"fitur": [
+   "LIGHT SENSING - .Otomatis masuk ke.mode sleep setelah 3 menit ruangann gelap",
+   "AIR SENSING - Kecepatan udara berubah otomatis mengikuti kualitas udara sekitar.",
+   "Real time indikator kualitas udara.",
+   "Untuk ukuran ruangan 33 m2 dan daya listril 45 W."
+  ],
     "image": "images/coway-ap-squarefit.jpg",
     "video": "",
     "description": ""
