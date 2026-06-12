@@ -287,10 +287,10 @@
       "filter": 1100000,
       "filterbln": 110000,
       "paket": [
-        { "durasi": 7, "bulanan": 190000, "cash": 9720000 },
-        { "durasi": 6, "bulanan": 210000, "cash": 13800000 },
-        { "durasi": 5, "bulanan": 230000, "cash": 15120000 },
-        { "durasi": 3, "bulanan": 270000, "cash": 15960000 }
+        { "durasi": 7, "bulanan": 190000, "cash": 15960000 },
+        { "durasi": 6, "bulanan": 210000, "cash": 15120000 },
+        { "durasi": 5, "bulanan": 230000, "cash": 13800000 },
+        { "durasi": 3, "bulanan": 270000, "cash": 9720000 }
       ]
     },
     "spec": {
